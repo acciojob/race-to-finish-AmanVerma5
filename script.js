@@ -2,10 +2,10 @@ window.promises = [];
 
 // Do not change the code above this
 // add your promises to the array `promises`
-function getRandomTIme(){
+function getRandomTime(){
     let sec=Math.random()*4+1;
-    let randomTIme=sec*1000;
-    return randomTIme;
+    let randomTime=sec*1000;
+    return randomTime;
 }
 
 let prom1 = new Promise((resolve) => {
